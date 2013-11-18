@@ -5,7 +5,7 @@ A simple staggered view for Android :-)
 
 Hint: StaggeredView has been created within Android Studio - this guide describes how to integrate StaggeredView into your Android Studio project. Unfortunately currently AS (0.3.6) does not provide a smooth way of library integration (except you have ten hours left and already 'Master-Of-The-Gradle-Crap') so we quickly describe a programmatic way of embedding this staggered view...
 
-![ScreenShot](/images/staggered.png)
+![ScreenShot](/images/android_staggeredview.png)
 
 # Quick introduction
 
@@ -13,11 +13,11 @@ In order to use StaggeredView you should be familar with the StaggeredView basic
 
 There are three different "row" combinations which can occur within the StaggeredView component. A row is one/several images grouped horizontally…see picture below:
 
-![ScreenShot](/images/row.png)
+![ScreenShot](/images/android_staggeredview03.png)
 
 Within a row three different layouts might occurs: a large image only, two small images and a medium sized image (left) or a medium image followed by two small images, see image below:
 
-![ScreenShot](/images/layouts.png)
+![ScreenShot](/images/android_staggeredview01.png)
 
 # Embed StaggeredView
 
@@ -33,7 +33,7 @@ Nearly done. In case you wanna use our wonderful cheese images & sentico fonts y
 
 Below I have pasted a screenie chalking out all required copy&paste parts:
 
-![ScreenShot](/images/project.png)
+![ScreenShot](/images/android_staggeredview01.png)
 
 ## Embed StaggeredView
 
