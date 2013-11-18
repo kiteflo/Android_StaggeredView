@@ -35,3 +35,29 @@ Below I have pasted a screenie chalking out all required copy&paste parts:
 
 ![ScreenShot](/images/project.png)
 
+## Embed StaggeredView
+
+We expect that you are familar with the concepts of embedding fragments into an application…StaggeredView is embedded programmatically, you can do this for example within the **onCreate** method of your MainActivity:
+
+```java
+public class MainActivity extends ActionBarActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        FragmentStaggeredView staggeredViewFragment = new FragmentStaggeredView();
+        staggeredViewFragment.setItems(initItems());
+        staggeredViewFragment.setPadding(15);
+        staggeredViewFragment.setBackgroundColor("#000000");
+        staggeredViewFragment.setAvoidDuplicateRandomLayouts(true);
+
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.container, staggeredViewFragment)
+                    .commit();
+        }
+    }
+    …
+```
