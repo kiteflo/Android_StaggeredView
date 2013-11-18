@@ -23,7 +23,7 @@ import java.util.Random;
 /**
  * Setup staggered view...
  */
-public class StaggeredViewFragment extends Fragment
+public class FragmentStaggeredView extends Fragment
 {
     // ------------------------------------------------------------------------
     // members
@@ -48,7 +48,7 @@ public class StaggeredViewFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View view = inflater.inflate(R.layout.fragment_main,container,false);
+        View view = inflater.inflate(R.layout.fragment_staggered_view,container,false);
         LinearLayout llFrame = (LinearLayout)view.findViewById(R.id.ll_frame);
 
         // apply layout properties (color etc.)

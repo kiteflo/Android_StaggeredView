@@ -7,7 +7,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.jooik.staggeredview.frags.StaggeredViewFragment;
+import com.jooik.staggeredview.frags.FragmentStaggeredView;
 import com.jooik.staggeredview.util.ISquareItem;
 import com.jooik.staggeredview.util.ShadowProperties;
 import com.jooik.staggeredview.util.SquareItem;
@@ -22,7 +22,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        StaggeredViewFragment staggeredViewFragment = new StaggeredViewFragment();
+        FragmentStaggeredView staggeredViewFragment = new FragmentStaggeredView();
         staggeredViewFragment.setItems(initItems());
         staggeredViewFragment.setPadding(15);
         staggeredViewFragment.setBackgroundColor("#000000");
