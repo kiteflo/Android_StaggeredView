@@ -1,4 +1,6 @@
 StaggeredView
 =============
 
-Simple staggered view for Android...
+A simple staggered view for Android :-)
+
+![ScreenShot](/images/staggered.png)
