@@ -33,7 +33,7 @@ Nearly done. In case you wanna use our wonderful cheese images & sentico fonts y
 
 Below I have pasted a screenie chalking out all required copy&paste parts:
 
-![ScreenShot](/images/android_staggeredview01.png)
+![ScreenShot](/images/android_staggeredview02.png)
 
 ## Embed StaggeredView
 
