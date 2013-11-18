@@ -14,3 +14,7 @@ In order to use StaggeredView you should be familar with the StaggeredView basic
 There are three different "row" combinations which can occur within the StaggeredView component. A row is one/several images grouped horizontally…see picture below:
 
 ![ScreenShot](/images/row.png)
+
+Within a row three different layouts might occurs: a large image only, two small images and a medium sized image (left) or a medium image followed by two small images, see image below:
+
+![ScreenShot](/images/layouts.png)
