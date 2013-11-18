@@ -117,3 +117,9 @@ Of course there need to be certain rules enabling you to populate StaggeredView 
         return items;
     }
 ```
+
+## Go Code!
+
+Ok, basically that's all you need to know about StaggeredList - of course there is some more brain power behind StaggeredView, for example influencing random generation of row layouts etc. but that's documented pretty well in the Code so simply export JavaDoc and you should be able to dive into the magic of StaggeredView… ;-)
+
+Have Fun!
