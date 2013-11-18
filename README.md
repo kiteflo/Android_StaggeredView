@@ -61,3 +61,59 @@ public class MainActivity extends ActionBarActivity {
     }
     …
 ```
+
+So what's happening here? Pretty simple…the FragmentStaggeredView is initialized and added to the activity window, there are several global parameters which can be passed to the staggered view in order to control it's look & feel. The *initItems()* method will be explained in a next steps as this is data generation for the StaggeredView.
+
+Of course there need to be certain rules enabling you to populate StaggeredView with your own data, StaggeredView items simply need to implement the ISquareItem interface which enables items to define their look and feel. So all you need to do in order to render your own items is passing a list of items implementing the ISquareItem interface…below there is a demo snippet of creating a list of items:
+
+```java
+    /**
+     * Generate some demo items...
+     * @return
+     */
+    private List<ISquareItem> initItems()
+    {
+        Typeface face = Typeface.createFromAsset(getAssets(),
+                "fonts/SignPainter_HouseScript.ttf");
+
+        int font_large = 35;
+        int font_medium = 28;
+        int font_small = 20;
+        int font_color = Color.WHITE;
+        ShadowProperties shadowProperties = new ShadowProperties(30,0,0,Color.BLACK);
+
+        List<ISquareItem> items = new ArrayList<ISquareItem>();
+        SquareItem sq1 = new SquareItem("Alm-Käse",R.drawable.cheese_almkaese);
+        sq1.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq1);
+        SquareItem sq2 = new SquareItem("Appenzeller",R.drawable.cheese_appenzeller);
+        sq2.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq2);
+        SquareItem sq3 = new SquareItem("Aragon",R.drawable.cheese_aragon);
+        sq3.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq3);
+        SquareItem sq4 = new SquareItem("Asiago",R.drawable.cheese_asiago);
+        sq4.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq4);
+        SquareItem sq5 = new SquareItem("Banon",R.drawable.cheese_banon);
+        sq5.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq5);
+        SquareItem sq6 = new SquareItem("Bavariablu",R.drawable.cheese_bavariablu);
+        sq6.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq6);
+        SquareItem sq7 = new SquareItem("Beaufort",R.drawable.cheese_beaufort);
+        sq7.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq7);
+        SquareItem sq8 = new SquareItem("Belpaese",R.drawable.cheese_belpaese);
+        sq8.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq8);
+        SquareItem sq9 = new SquareItem("Bergader Edelpilz",R.drawable.cheese_bergader_edelpilz);
+        sq9.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq9);
+        SquareItem sq10 = new SquareItem("Bergkäse",R.drawable.cheese_bergkaese);
+        sq10.applyFontStyle(font_large,font_medium,font_small,face,font_color,shadowProperties);
+        items.add(sq10);
+
+        return items;
+    }
+```
