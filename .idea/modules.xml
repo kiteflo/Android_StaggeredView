@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StaggeredView.iml" filepath="$PROJECT_DIR$/StaggeredView.iml" />
       <module fileurl="file://$PROJECT_DIR$/StaggeredView/StaggeredView-StaggeredView.iml" filepath="$PROJECT_DIR$/StaggeredView/StaggeredView-StaggeredView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_staggered_view.iml" filepath="$PROJECT_DIR$/android_staggered_view.iml" />
     </modules>
   </component>
 </project>

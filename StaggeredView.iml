@@ -1,15 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+<module external.linked.project.path="$MODULE_DIR$/StaggeredView" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="DefaultFlavorDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDefaultFlavorDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDefaultFlavorDebug" />
+        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleDefaultFlavorTest" />
+        <option name="SOURCE_GEN_TASK_NAME" value="generateDefaultFlavorDebugSources" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/StaggeredView/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":StaggeredView" />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/build/classes/main" />
+    <output url="file://$MODULE_DIR$/StaggeredView/build/classes/defaultFlavor/debug" />
     <output-test url="file://$MODULE_DIR$/build/classes/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/build" />
+    <content url="file://$MODULE_DIR$/StaggeredView">
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/source/r/defaultFlavor/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/source/aidl/defaultFlavor/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/source/rs/defaultFlavor/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/source/buildConfig/defaultFlavor/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/res/rs/defaultFlavor/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/source/r/defaultFlavor/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/source/aidl/defaultFlavor/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/source/rs/defaultFlavor/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/source/buildConfig/defaultFlavor/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/build/res/rs/defaultFlavor/test" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/defaultFlavor/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/defaultFlavor/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/defaultFlavor/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/defaultFlavor/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/defaultFlavor/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/defaultFlavor/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/defaultFlavor/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTestDefaultFlavor/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTestDefaultFlavor/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTestDefaultFlavor/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTestDefaultFlavor/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTestDefaultFlavor/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTestDefaultFlavor/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTestDefaultFlavor/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/debug/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/StaggeredView/src/instrumentTest/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/apk" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/res" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/StaggeredView/build/tmp" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 18 Platform (1)" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="support-v4-18.0.0" level="project" />
+    <orderEntry type="library" exported="" name="ComAndroidSupportAppcompatV71800.aar" level="project" />
   </component>
 </module>
 
